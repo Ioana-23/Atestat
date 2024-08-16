@@ -363,17 +363,6 @@ namespace Azul_atestat
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    onTheBoardPieces[j].Add(new List<PictureBox>());
-                    foreach (PictureBox emptytile in onTheBoardPieces[j][i])
-                    {
-                        emptytile.Image = null;
-                    }
-                }
-            }
-            for (int j = 0; j < nrJucatori; j++)
-            {
-                for (int i = 0; i < 5; i++)
-                {
                     PictureBox currentPictureBox = new PictureBox();
                     onTheBoardPieces[j][i].Add(currentPictureBox);
                     onTheBoardPieces[j][i][0].Size = new Size(marimePiese, marimePiese);
@@ -1385,7 +1374,7 @@ namespace Azul_atestat
                 }
                 
             }
-            for(int i = 0; i <= indexOfLine; i++)
+            for(int i = 0; i < indexOfLine; i++)
             {
                 if (onTheBoardPieces[jucatorCurent][indexOfLine][i].ImageLocation != null)
                 {

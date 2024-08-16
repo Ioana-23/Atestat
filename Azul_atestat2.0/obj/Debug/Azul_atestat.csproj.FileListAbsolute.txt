@@ -29,4 +29,3 @@ D:\ATESTAT\Azul_atestat2.0\obj\Debug\Azul_atestat.pdb
 D:\ATESTAT\Azul_atestat2.0\obj\Debug\Azul_atestat.FormMeniu.resources
 D:\ATESTAT\Azul_atestat2.0\obj\Debug\Azul_atestat.FormGame.resources
 D:\Atestat\Azul_atestat2.0\obj\Debug\Azul_atestat.csproj.AssemblyReference.cache
-D:\Atestat\Azul_atestat2.0\obj\Debug\Azul_atestat.csproj.SuggestedBindingRedirects.cache
